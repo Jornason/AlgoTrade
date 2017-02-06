@@ -6,7 +6,7 @@ Email: jander43@vols.utk.edu
 Description:
     Simple trading strategy for 'PyAlgoTrade' tutorial
 Usage:
-    simple_strategy
+    tutorial1
 '''
 
 # libraries
