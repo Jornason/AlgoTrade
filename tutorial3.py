@@ -26,7 +26,8 @@ class MyStrategy(strategy.BacktestingStrategy):
 
     def onBars(self, bars):
         bar = bars[self.__instrument]
-        self.info('%s %s %s' % (bar.getClose(), self.__rsi[-1], self.__sma[-1]))
+        self.info('%s %s %s' % (bar.getClose(), self.__rsi[-1],
+                  self.__sma[-1]))
 
 
 # executable
