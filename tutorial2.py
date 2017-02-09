@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
     # Load the yahoo feed from the csv file
     feed = yahoofeed.Feed()
-    feed.addBarsFromCSV('orcl', 'orcl-2000.csv')
+    feed.addBarsFromCSV('orcl', 'data/orcl-2000.csv')
 
     # Evaluate the strategy with the feed's bars
     mystrategy = MyStrategy(feed, 'orcl')

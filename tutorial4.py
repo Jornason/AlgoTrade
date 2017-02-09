@@ -23,7 +23,7 @@ from pyalgotrade.technical import ma
 def run_strategy(smaPeriod):
     # Load the yahoo feed from the CSV file
     feed = yahoofeed.Feed()
-    feed.addBarsFromCSV("orcl", "orcl-2000.csv")
+    feed.addBarsFromCSV("orcl", "data/orcl-2000.csv")
 
     # Evaluate the strategy with the feed.
     myStrategy = MyStrategy(feed, "orcl", smaPeriod)
